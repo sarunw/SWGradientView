@@ -1,0 +1,6 @@
+framework module SWGradientView {
+  umbrella header "SWGradientView-umbrella.h"
+
+  export *
+  module * { export * }
+}
