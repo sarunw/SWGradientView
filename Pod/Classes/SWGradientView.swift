@@ -8,38 +8,38 @@
 
 import UIKit
 
-@IBDesignable class SWGradientView: UIView {
+@IBDesignable public class SWGradientView: UIView {
     
-    @IBInspectable var startColor: UIColor = UIColor.whiteColor() {
+    @IBInspectable public var startColor: UIColor = UIColor.whiteColor() {
         didSet {
             self.updateView()
         }
     }
     
-    @IBInspectable var endColor: UIColor = UIColor.blackColor() {
+    @IBInspectable public var endColor: UIColor = UIColor.blackColor() {
         didSet {
             self.updateView()
         }
     }
     
-    @IBInspectable var startPoint: CGPoint = CGPoint(x: 0.5, y: 0) {
+    @IBInspectable public var startPoint: CGPoint = CGPoint(x: 0.5, y: 0) {
         didSet {
             self.updateView()
         }
     }
     
-    @IBInspectable var endPoint: CGPoint = CGPoint(x: 0.5, y: 1) {
+    @IBInspectable public var endPoint: CGPoint = CGPoint(x: 0.5, y: 1) {
         didSet {
             self.updateView()
         }
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         self.updateView()
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.updateView()
     }
@@ -53,11 +53,11 @@ import UIKit
     }
     
     // MARK: - Helper
-    override class func layerClass() -> AnyClass {
+    override public class func layerClass() -> AnyClass {
         return CAGradientLayer.self
     }
     
-    var gradientLayer: CAGradientLayer {
+    private var gradientLayer: CAGradientLayer {
         return self.layer as! CAGradientLayer
     }
 }

@@ -45,6 +45,7 @@
 		607FACE51AFB9204008FA782 /* SWGradientView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWGradientView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		A086D5981C2322BC00683226 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		A8F2B93C12E0926D56AF9D57 /* Pods-SWGradientView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWGradientView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWGradientView_Example/Pods-SWGradientView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2E8BB693CBBD01E3B5F2675 /* Pods-SWGradientView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWGradientView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWGradientView_Tests/Pods-SWGradientView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +84,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				A086D5981C2322BC00683226 /* MyPlayground.playground */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SWGradientView */,
 				607FACE81AFB9204008FA782 /* Tests */,
