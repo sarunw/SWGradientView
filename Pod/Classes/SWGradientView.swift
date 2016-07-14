@@ -10,13 +10,13 @@ import UIKit
 
 @IBDesignable public class SWGradientView: UIView {
     
-    @IBInspectable public var startColor: UIColor = UIColor.whiteColor() {
+    @IBInspectable public var startColor: UIColor = UIColor.white() {
         didSet {
             self.updateView()
         }
     }
     
-    @IBInspectable public var endColor: UIColor = UIColor.blackColor() {
+    @IBInspectable public var endColor: UIColor = UIColor.black() {
         didSet {
             self.updateView()
         }
@@ -45,7 +45,7 @@ import UIKit
     }
     
     private func updateView() {
-        let colors = [self.startColor.CGColor, self.endColor.CGColor]
+        let colors = [self.startColor.cgColor, self.endColor.cgColor]
         self.gradientLayer.colors = colors
         self.gradientLayer.startPoint = self.startPoint
         self.gradientLayer.endPoint = self.endPoint
