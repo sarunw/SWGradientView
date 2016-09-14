@@ -1,5 +1,5 @@
 PODS:
-  - SWGradientView (1.0.0)
+  - SWGradientView (2.0.0)
 
 DEPENDENCIES:
   - SWGradientView (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SWGradientView: e8cb0420604083ae41e5dc5dab012682441d4afd
+  SWGradientView: 0d54242ccf6e56455188eaa97f9d6767997ded8d
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 4a6b623635080f360487f9a926bbed8ed8ffe785
+
+COCOAPODS: 1.1.0.rc.2

@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4918952490623172F6100D48 /* Pods_SWGradientView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B29C29D548CD8674EF8E73D /* Pods_SWGradientView_Example.framework */; };
+		04AE60EF7842D3D58E945547 /* Pods_SWGradientView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A2962F322C75A167C58C35 /* Pods_SWGradientView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		EFEB36BFE0A0607A96A0F2C6 /* Pods_SWGradientView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A73E76293F4AAE6D8AF084 /* Pods_SWGradientView_Tests.framework */; };
+		6FDCD88D254F61C89CFD50B8 /* Pods_SWGradientView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A07A9DBAB7D8F91215FF30B /* Pods_SWGradientView_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A17A5595BD5E9D75F459D5A /* Pods-SWGradientView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWGradientView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWGradientView_Tests/Pods-SWGradientView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		129571D3D3E08CB269F61A52 /* SWGradientView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWGradientView.podspec; path = ../SWGradientView.podspec; sourceTree = "<group>"; };
-		14A73E76293F4AAE6D8AF084 /* Pods_SWGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWGradientView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		156C664EE726AB2E137C3423 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1F2BBF80A17CA51A3FD8031C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2B29C29D548CD8674EF8E73D /* Pods_SWGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWGradientView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FF34CE7CE0825B61C2B22B7 /* Pods-SWGradientView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWGradientView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWGradientView_Example/Pods-SWGradientView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		25DFB9CF7822F31FEB4B9834 /* Pods-SWGradientView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWGradientView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWGradientView_Example/Pods-SWGradientView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SWGradientView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWGradientView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,9 +42,12 @@
 		607FACE51AFB9204008FA782 /* SWGradientView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWGradientView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6A07A9DBAB7D8F91215FF30B /* Pods_SWGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWGradientView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		718731F7DE3A838088DAEE98 /* Pods-SWGradientView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWGradientView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWGradientView_Tests/Pods-SWGradientView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A086D5981C2322BC00683226 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
-		A8F2B93C12E0926D56AF9D57 /* Pods-SWGradientView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWGradientView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWGradientView_Example/Pods-SWGradientView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D2E8BB693CBBD01E3B5F2675 /* Pods-SWGradientView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWGradientView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWGradientView_Tests/Pods-SWGradientView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C1E29B3095765DF032126BD5 /* Pods-SWGradientView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWGradientView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWGradientView_Example/Pods-SWGradientView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C7A2962F322C75A167C58C35 /* Pods_SWGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWGradientView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C8D2B8D71113AB70EBBCCE /* Pods-SWGradientView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWGradientView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWGradientView_Tests/Pods-SWGradientView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4918952490623172F6100D48 /* Pods_SWGradientView_Example.framework in Frameworks */,
+				04AE60EF7842D3D58E945547 /* Pods_SWGradientView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,24 +63,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFEB36BFE0A0607A96A0F2C6 /* Pods_SWGradientView_Tests.framework in Frameworks */,
+				6FDCD88D254F61C89CFD50B8 /* Pods_SWGradientView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52592100D32141B37A691B42 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5FF34CE7CE0825B61C2B22B7 /* Pods-SWGradientView_Example.debug.xcconfig */,
-				A8F2B93C12E0926D56AF9D57 /* Pods-SWGradientView_Example.release.xcconfig */,
-				0A17A5595BD5E9D75F459D5A /* Pods-SWGradientView_Tests.debug.xcconfig */,
-				D2E8BB693CBBD01E3B5F2675 /* Pods-SWGradientView_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -89,8 +78,8 @@
 				607FACD21AFB9204008FA782 /* Example for SWGradientView */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				52592100D32141B37A691B42 /* Pods */,
-				68438E11A1AAC456287AD1C9 /* Frameworks */,
+				99ABCF6940E8526EEAD1F2E7 /* Pods */,
+				A5FC285102122905BB22E8CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,11 +141,22 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		68438E11A1AAC456287AD1C9 /* Frameworks */ = {
+		99ABCF6940E8526EEAD1F2E7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2B29C29D548CD8674EF8E73D /* Pods_SWGradientView_Example.framework */,
-				14A73E76293F4AAE6D8AF084 /* Pods_SWGradientView_Tests.framework */,
+				C1E29B3095765DF032126BD5 /* Pods-SWGradientView_Example.debug.xcconfig */,
+				25DFB9CF7822F31FEB4B9834 /* Pods-SWGradientView_Example.release.xcconfig */,
+				E7C8D2B8D71113AB70EBBCCE /* Pods-SWGradientView_Tests.debug.xcconfig */,
+				718731F7DE3A838088DAEE98 /* Pods-SWGradientView_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5FC285102122905BB22E8CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7A2962F322C75A167C58C35 /* Pods_SWGradientView_Example.framework */,
+				6A07A9DBAB7D8F91215FF30B /* Pods_SWGradientView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,12 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SWGradientView_Example" */;
 			buildPhases = (
-				282EEA8AF6C5329CDC24F765 /* Check Pods Manifest.lock */,
+				EF5FDFCCAB7ADE85E4BA39E1 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				0DB22D18F0C0BEBB1ACFB771 /* Embed Pods Frameworks */,
-				D634948E3554E29D09D59ECA /* Copy Pods Resources */,
+				A0E25C3CBF7D2EC13339134B /* [CP] Embed Pods Frameworks */,
+				B63A96225C930E04CD8A71CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,12 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SWGradientView_Tests" */;
 			buildPhases = (
-				1CFBF60BCE3E8A4E5E11056B /* Check Pods Manifest.lock */,
+				93369B68095F12CD2955BB93 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				DF6800B6D73DA18512C3BF32 /* Embed Pods Frameworks */,
-				470552A78E711EE46F736F72 /* Copy Pods Resources */,
+				9C3308C4249C4CE22E3461A2 /* [CP] Embed Pods Frameworks */,
+				2248B5851A423641B999666C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,9 +217,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -264,59 +266,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DB22D18F0C0BEBB1ACFB771 /* Embed Pods Frameworks */ = {
+		2248B5851A423641B999666C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWGradientView_Example/Pods-SWGradientView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1CFBF60BCE3E8A4E5E11056B /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		282EEA8AF6C5329CDC24F765 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		470552A78E711EE46F736F72 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,14 +281,59 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWGradientView_Tests/Pods-SWGradientView_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D634948E3554E29D09D59ECA /* Copy Pods Resources */ = {
+		93369B68095F12CD2955BB93 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C3308C4249C4CE22E3461A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWGradientView_Tests/Pods-SWGradientView_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0E25C3CBF7D2EC13339134B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWGradientView_Example/Pods-SWGradientView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B63A96225C930E04CD8A71CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,19 +341,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWGradientView_Example/Pods-SWGradientView_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DF6800B6D73DA18512C3BF32 /* Embed Pods Frameworks */ = {
+		EF5FDFCCAB7ADE85E4BA39E1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWGradientView_Tests/Pods-SWGradientView_Tests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -487,31 +489,33 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FF34CE7CE0825B61C2B22B7 /* Pods-SWGradientView_Example.debug.xcconfig */;
+			baseConfigurationReference = C1E29B3095765DF032126BD5 /* Pods-SWGradientView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWGradientView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8F2B93C12E0926D56AF9D57 /* Pods-SWGradientView_Example.release.xcconfig */;
+			baseConfigurationReference = 25DFB9CF7822F31FEB4B9834 /* Pods-SWGradientView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWGradientView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A17A5595BD5E9D75F459D5A /* Pods-SWGradientView_Tests.debug.xcconfig */;
+			baseConfigurationReference = E7C8D2B8D71113AB70EBBCCE /* Pods-SWGradientView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -525,13 +529,14 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWGradientView_Example.app/SWGradientView_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2E8BB693CBBD01E3B5F2675 /* Pods-SWGradientView_Tests.release.xcconfig */;
+			baseConfigurationReference = 718731F7DE3A838088DAEE98 /* Pods-SWGradientView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -541,6 +546,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWGradientView_Example.app/SWGradientView_Example";
 			};
 			name = Release;

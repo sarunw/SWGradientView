@@ -8,27 +8,27 @@
 
 import UIKit
 
-@IBDesignable public class SWGradientView: UIView {
+@IBDesignable open class SWGradientView: UIView {
     
-    @IBInspectable public var startColor: UIColor = UIColor.whiteColor() {
+    @IBInspectable open var startColor: UIColor = UIColor.white {
         didSet {
             self.updateView()
         }
     }
     
-    @IBInspectable public var endColor: UIColor = UIColor.blackColor() {
+    @IBInspectable open var endColor: UIColor = UIColor.black {
         didSet {
             self.updateView()
         }
     }
     
-    @IBInspectable public var startPoint: CGPoint = CGPoint(x: 0.5, y: 0) {
+    @IBInspectable open var startPoint: CGPoint = CGPoint(x: 0.5, y: 0) {
         didSet {
             self.updateView()
         }
     }
     
-    @IBInspectable public var endPoint: CGPoint = CGPoint(x: 0.5, y: 1) {
+    @IBInspectable open var endPoint: CGPoint = CGPoint(x: 0.5, y: 1) {
         didSet {
             self.updateView()
         }
@@ -44,8 +44,8 @@ import UIKit
         self.updateView()
     }
     
-    private func updateView() {
-        let colors = [self.startColor.CGColor, self.endColor.CGColor]
+    fileprivate func updateView() {
+        let colors = [self.startColor.cgColor, self.endColor.cgColor]
         self.gradientLayer.colors = colors
         self.gradientLayer.startPoint = self.startPoint
         self.gradientLayer.endPoint = self.endPoint
@@ -53,11 +53,11 @@ import UIKit
     }
     
     // MARK: - Helper
-    override public class func layerClass() -> AnyClass {
+    override open class var layerClass : AnyClass {
         return CAGradientLayer.self
     }
     
-    private var gradientLayer: CAGradientLayer {
+    fileprivate var gradientLayer: CAGradientLayer {
         return self.layer as! CAGradientLayer
     }
 }
